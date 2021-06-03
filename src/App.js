@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import { Navbar } from './components'
+import GlobalStyles from './globalStyles'
+import { Home, Contact, Projects } from './pages'
+
+// const Home = () => <h1 style={{color: 'red'}}>hola putita lorem sfsdfdcfsd</h1>
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <GlobalStyles />
+      <Navbar />
+      <Switch>
+        <Route component={Home} path="/" exact />
+        <Route component={Projects} path="/projects" />
+        <Route component={Contact} path="/contact" />
+      </Switch>
+    </Router>
   );
 }
 
