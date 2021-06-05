@@ -1,10 +1,13 @@
 import React from 'react'
-import { ContainerLogo } from '../../components'
+import { ContainerLogo, ContainerInfo, Skills } from '../../components'
+
 
 const Home = () => {
     return (
         <>
-           <ContainerLogo/> 
+            <ContainerLogo/>
+            <ContainerInfo/>
+            <Skills/>
         </>
     )
 }

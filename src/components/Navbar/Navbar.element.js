@@ -31,9 +31,12 @@ export const NavLogo = styled(Link)`
     justify-self: flex-start;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
+    &:hover{
+        /*  Buscar más!! filter: blur(1px); */
+    }
 `
 
 export const NavIconLeft = styled(TiChevronLeft)`
@@ -53,8 +56,9 @@ export const MobileIcon = styled.div`
         top: 0;
         right: 0;
         transform: translate(-100%, 60%);
-        font-size: 1.4rem; 
+        font-size: 1.3rem; 
         cursor: pointer;
+
     }  
 `
 
@@ -115,7 +119,6 @@ export const NavLinks = styled(Link)`
         display: table;
         
         &:hover{
-            
             font-size: 1.2rem;
             transition: all .1s ease;
         }

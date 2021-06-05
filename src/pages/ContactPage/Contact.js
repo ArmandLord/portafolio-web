@@ -1,11 +1,14 @@
 import React from 'react'
+import { FormContact } from '../../components'
+
 
 const Contact = () => {
     return (
-        <div>
-            <h1 style={{color: "black"}}>contact</h1>
-        </div>
+        <>
+            <FormContact/>  
+        </>
     )
 }
 
 export default Contact
+
