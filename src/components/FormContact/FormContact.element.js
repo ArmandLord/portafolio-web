@@ -3,7 +3,7 @@ import { Container } from '../../globalStyles'
 
 export const FormContainer = styled.div`
     width: 100%;
-    height: 300px;
+    height: 500px;
     background: #000000;
     display: flex;
     align-items: center;
@@ -14,6 +14,8 @@ export const FormMin = styled(Container)`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    ${Container}
 `
 
 export const Form = styled.form`
@@ -21,7 +23,15 @@ export const Form = styled.form`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 400px;
+    width: 700px;
+
+    @media screen and (max-width: 1123px){
+        width: 600px;
+    }
+
+    @media screen and (max-width: 665px){
+        width: 400px;
+    }
 `
 
 export const Input = styled.input`
@@ -57,7 +67,7 @@ export const Button = styled.button`
     color: #fff;
     background: transparent;
     margin-top: 10px;
-    border-radius: 12px;
+    border-radius: 5px;
     border: 2px solid #fff;
     transition: all .2s linear;
     padding: 3px;
@@ -72,5 +82,21 @@ export const Button = styled.button`
         background: #000000;
         color: #fff;
         box-shadow: 0 0 5px #fff, 0 0 10px #fff inset;
+    }
+`
+
+
+export const Message = styled.div`
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border: 2px solid #fff;
+    &:hover{
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff inset;
+        font-size: 18px;
+        transition: all 0.3s ease-out;
+        
     }
 `

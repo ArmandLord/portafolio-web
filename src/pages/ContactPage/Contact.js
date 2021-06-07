@@ -1,11 +1,12 @@
 import React from 'react'
-import { FormContact } from '../../components'
+import { FormContact, LogosContact } from '../../components'
 
 
 const Contact = () => {
     return (
         <>
-            <FormContact/>  
+            <FormContact/> 
+            <LogosContact/> 
         </>
     )
 }

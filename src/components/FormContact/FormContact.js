@@ -1,14 +1,32 @@
 import React from 'react'
 import { useForm, ValidationError } from '@formspree/react';
-import { FormContainer, FormMin, Form, Input, Textarea, Button } from './FormContact.element'
+import { 
+    FormContainer, 
+    FormMin, 
+    Form, 
+    Input, 
+    Textarea, 
+    Button, 
+    Message 
+} from './FormContact.element'
 
 
 const FormContact = () => {
     const [state, handleSubmit] = useForm("mknkreqj");
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+        return <FormContainer>
+                    <FormMin>
+                        <Message><p>Thanks for joining!</p></Message>
+                    </FormMin>
+               </FormContainer>;
     }
     return (
+            // <FormContainer>
+            //     <FormMin>
+            //         <Message><p>Thanks for joining!</p></Message>
+            //     </FormMin>
+            // </FormContainer>
+
         <FormContainer>
             <FormMin>
                 <Form onSubmit={handleSubmit}>
