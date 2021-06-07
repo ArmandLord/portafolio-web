@@ -25,8 +25,8 @@ export const Social = styled.div`
     font-size: 5em;
     margin: 40px 0;
     cursor: pointer;
+    box-sizing: border-box;
     &:hover{
-        
-        font-size: 4.8em;
+        font-size: 5.2em;
     }
 `
