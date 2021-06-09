@@ -8,14 +8,14 @@ const ContainerInfo = () => {
                <Info>
                 <LogoInfo/>
                 <ContainerText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet malesuada suscipit. Vestibulum feugiat justo tortor, in bibendum odio tempor vel. Curabitur in nulla tortor. Vivamus vulputate dignissim nunc, sit amet eleifend quam fringilla non. Praesent tempus mi ut purus elementum, in rutrum sapien vehicula. Fusce tempor arcu et nulla pulvinar, sed finibus eros dapibus. Suspendisse egestas mi tincidunt tincidunt laoreet.
+                My story as a programmer begins during the period of the pandemic that we have suffered throughout the world. At that time I finished my degree in Psychology at the National Autonomous University of Mexico. However, with all the changes that this pandemic brought, I realized that I had to deconstruct all my ideas and dreams about the future.
                 <br/><br/>
-                Donec lectus neque, dapibus non pulvinar et, convallis eu massa. Duis bibendum rhoncus vehicula. In vitae libero aliquam, faucibus est in, venenatis tortor. Aliquam pharetra pretium leo, quis lobortis ex placerat vel. Phasellus fermentum nulla eu urna venenatis, in accumsan diam mollis. Pellentesque sapien lorem, convallis efficitur laoreet in, rutrum a sem. Fusce auctor lorem magna, at fringilla augue lobortis sed.
-
+                Thanks to a friend JossDz 💎 began to know the world of programming and how indispensable our time is. I realized the great opportunities to collaborate with teams to create innovative things and how beautiful the community is. Always supporting you to continue growing.
+                <br/><br/>
+                Currently, he continues researching new technologies and delving deeper into the programming languages, frameworks, and libraries that I know. I feel very motivated and excited to continue growing in this world.
                 </ContainerText>
                </Info>
            </ContainerBackground>
-          
         </>
     )
 }

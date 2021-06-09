@@ -14,6 +14,7 @@ export const SkillsMin = styled(Container)`
     align-items: center;
     flex-direction: column;
     padding: 1.5em;
+    
 
     ${Container}
 `

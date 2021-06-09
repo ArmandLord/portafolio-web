@@ -8,7 +8,7 @@ import {
 
 export const Nav = styled.div`
     background-color: #000000;
-    height: 55px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@ export const Nav = styled.div`
 export const NavbarContainer = styled(Container)`
     display: flex;
     justify-content: space-between;
-    height: 55px;
+    height: 60px;
 
     ${Container}
 `
