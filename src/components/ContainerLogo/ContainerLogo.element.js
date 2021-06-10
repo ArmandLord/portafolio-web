@@ -4,7 +4,7 @@ import { Container } from '../../globalStyles'
 
 export const ContainerBackground = styled.div`
       width: 100%;
-      height: 450px;
+      height: 500px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -44,8 +44,8 @@ export const Transition = styled.div`
     display: flex; 
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     background: #000000;
     border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
     will-change: border-radius, transform, opacity;

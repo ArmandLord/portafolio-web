@@ -8,7 +8,7 @@ const CardProject = () => {
             <FullCard>
                 <CardContainer>
                     <Card 
-                        src="Portfolio.png" 
+                        src="Portfolio1.png" 
                         title="Portfolio" 
                         text="💼 My web portfolio is designed in Figma, created with React and Styled-Components 💅🏻."
                         to='/portafolio'

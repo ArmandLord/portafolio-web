@@ -4,7 +4,10 @@ import { Container } from '../../globalStyles'
 export const ProjectContent = styled.div`
     width: 100%;
     background: #000000;
-    height: 100%;
+    height: 92vh;
+    @media screen and (max-width: 678px){
+        height: auto;
+    }
 `
 
 
@@ -51,12 +54,12 @@ export const ProjectText = styled.div`
 `
 
 export const ProjectImage = styled.div`
-    height: 160px;
+    height: 290px;
     display: flex;
     align-items: center;
     justify-content: center;
     img{
-        height: 100%;
+        height: 80%;
         object-fit: cover;
         
     }

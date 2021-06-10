@@ -4,7 +4,10 @@ import { Container } from '../../globalStyles'
 export const FullCard = styled.div`
     width: 100%;
     background: linear-gradient(91.23deg, rgba(154, 154, 154, 0.69) -0.19%, rgba(10, 10, 10, 0.69) 99.81%);
-    height: auto;  
+    height: 1245px;  
+    @media screen and (max-width: 1070px){
+        height: auto;
+    }
 `
 export const CardContainer = styled(Container)`
     display: grid;

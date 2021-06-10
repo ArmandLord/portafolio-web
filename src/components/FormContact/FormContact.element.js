@@ -3,11 +3,12 @@ import { Container } from '../../globalStyles'
 
 export const FormContainer = styled.div`
     width: 100%;
-    height: 500px;
+    height: 46.5vh;
     background: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* @media screen and (max-width: 1065px){ */
 `
 
 export const FormMin = styled(Container)`

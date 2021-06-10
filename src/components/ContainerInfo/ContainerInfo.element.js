@@ -13,10 +13,17 @@ export const ContainerBackground = styled.div`
 
 export const Info = styled(Container)`
     height: 100%;
-    padding: 2em;
+    padding: 2.5em;
+    margin: 50px 0;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+
+    @media screen and (max-width: 760px){
+        padding: 2em;
+        margin: 0;
+
+    }
     
     ${Container}
 `
