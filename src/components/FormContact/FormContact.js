@@ -16,7 +16,7 @@ const FormContact = () => {
     if (state.succeeded) {
         return <FormContainer>
                     <FormMin>
-                        <Message><p>Thanks for joining!</p></Message>
+                        <Message><p>!Gracias por tu mensaje!</p></Message>
                     </FormMin>
                </FormContainer>;
     }
@@ -30,13 +30,13 @@ const FormContact = () => {
         <FormContainer>
             <FormMin>
                 <Form onSubmit={handleSubmit}>
-                    <h2>Contact me</h2>
+                    <h2>Contactame</h2>
                     <label htmlFor="email"></label>
                     <Input
                     id="email"
                     type="email" 
                     name="email"
-                    placeholder="Your Email:"
+                    placeholder="Email:"
                     />
                     <ValidationError 
                     prefix="Email" 
@@ -46,7 +46,7 @@ const FormContact = () => {
                     <Textarea
                     id="message"
                     name="message"
-                    placeholder="Leave a message:"
+                    placeholder="Escribe tu mensaje:"
                     />
                     <ValidationError 
                     prefix="Message" 
@@ -54,7 +54,7 @@ const FormContact = () => {
                     errors={state.errors}
                     />
                     <Button type="submit" disabled={state.submitting}>
-                        Submit 
+                        Enviar
                     </Button>
                 </Form>
             </FormMin>

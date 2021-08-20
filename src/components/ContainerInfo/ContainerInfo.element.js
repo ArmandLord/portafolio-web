@@ -46,4 +46,10 @@ export const ContainerText = styled.div`
         padding: 2em;
         text-align: justify;
     }
+    a {
+        color: rgba(255, 255,255, 0.8);
+        &:hover{
+            color: yellow;
+        }
+    }
 `

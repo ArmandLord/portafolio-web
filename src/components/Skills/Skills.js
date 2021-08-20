@@ -12,7 +12,7 @@ const Skills = () => {
         <>
            <ContainerSkills>
                <SkillsMin>
-                  <H2>Skills</H2>
+                  <H2>Habilidades</H2>
                   <Carousel>
                       <CarouselIcon><IconContext.Provider value={{color: 'red'}}><ImHtmlFive/></IconContext.Provider> </CarouselIcon>
                       <CarouselIcon><SiCss3/></CarouselIcon>

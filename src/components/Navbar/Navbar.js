@@ -34,10 +34,10 @@ const Navbar = () => {
                         <NavLinks to='/'>Home<NavHr/></NavLinks>
                         </NavItem>
                         <NavItem>
-                        <NavLinks to='/projects'>Projects<NavHr/></NavLinks>
+                        <NavLinks to='/projects'>Proyectos<NavHr/></NavLinks>
                         </NavItem>
                         <NavItem>
-                        <NavLinks to='/contact'>Contact<NavHr/></NavLinks>
+                        <NavLinks to='/contact'>Contacto<NavHr/></NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>   
