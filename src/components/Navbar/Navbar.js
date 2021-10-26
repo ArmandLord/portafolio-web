@@ -38,13 +38,13 @@ const Navbar = () => {
                     </MobileIcon>
                     <NavMenu onClick={handleClick} click={click}>
                         <NavItem>
-                        <NavLinks to='/'>Home<NavHr/></NavLinks>
+                            <NavLinks to='/'>Home<NavHr/></NavLinks>
                         </NavItem>
                         <NavItem>
-                        <NavLinks to='/projects'>Proyectos<NavHr/></NavLinks>
+                            <NavLinks to='/contact'>Contacto<NavHr/></NavLinks>
                         </NavItem>
                         <NavItem>
-                        <NavLinks to='/contact'>Contacto<NavHr/></NavLinks>
+                            <NavLinks to='/projects'>Proyectos<NavHr/></NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>   
