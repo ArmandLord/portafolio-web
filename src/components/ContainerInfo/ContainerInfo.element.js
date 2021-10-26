@@ -4,17 +4,17 @@ import { Container } from '../../globalStyles'
 
 
 export const ContainerBackground = styled.div`
-    background-color: #000000;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #000000;
 `
 
 export const Info = styled(Container)`
     height: 100%;
     padding: 2.5em;
-    margin: 50px 0;
+    padding: 50px 0;
     display: flex;
     flex-flow: column wrap;
     align-items: center;

@@ -15,17 +15,24 @@ import {
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
+    const [logo, setLogo] = useState(true)
+
     const handleClick = () => setClick(!click)
 
     return (
         <>
            <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>
-                        <NavIconLeft />
-                            Armadev /
-                        <NavIconRight />
-                    </NavLogo>
+                    {logo ?
+                        <NavLogo to='/' onMouseOver={() => setLogo(!logo)} onMouseOut={() => setLogo(true)}>
+                            <NavIconLeft />
+                                App /
+                            <NavIconRight />
+                        </NavLogo> : 
+                        <NavLogo to='/' onMouseOver={() => setLogo(!logo)} onMouseOut={() => setLogo(true)} >
+                             Armando Pérez Pérez
+                        </NavLogo>
+                        }
                     <MobileIcon onClick={handleClick}>
                         {click ? <FaTimes/> : <FaHamburger/>}
                     </MobileIcon>

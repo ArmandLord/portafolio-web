@@ -7,11 +7,12 @@ import {
 } from 'react-icons/ti'
 
 export const Nav = styled.div`
-    background-color: #000000;
+      background: #120932;
+    width: 100%;
     height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
     font-size: 1.1rem;
     position: sticky;
     top: 0;
@@ -20,20 +21,23 @@ export const Nav = styled.div`
 
 export const NavbarContainer = styled(Container)`
     display: flex;
-    justify-content: space-between;
-    height: 60px;
 
     ${Container}
 `
 
 export const NavLogo = styled(Link)`
     color: #fff;
-    justify-self: flex-start;
+    /* justify-self: flex-start; */
     cursor: pointer;
     text-decoration: none;
     font-size: 1.2rem;
     display: flex;
     align-items: center;
+    width: 20%;
+    
+    @media screen and (max-width: 960px){
+        font-size: .7rem;
+    } 
     &:hover{
         /*  Buscar más!! filter: blur(1px); */
     }
@@ -65,13 +69,15 @@ export const MobileIcon = styled.div`
 export const NavMenu = styled.ul`
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     list-style: none;
     text-align: center;
-    
+    width: 80%;
 
     @media screen and (max-width: 960px){
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         width: 100%;
         height: 100vh;
         position: absolute;
@@ -79,7 +85,8 @@ export const NavMenu = styled.ul`
         left: ${({click}) => (click ? 0 : '-100%')};
         opacity: 1;
         transition: all 0.5s ease;
-        background: #000000
+        background: transparent;
+        backdrop-filter: blur(8px);
     }
 `
 
@@ -87,9 +94,10 @@ export const NavItem = styled.li`
     height: 55px;
     border-bottom: 2px solid transparent; 
     
+    
 
     &:hover{
-        border-bottom: 2px solid #fff;
+        border-bottom: 2px solid #ac5ee2;
     }
 
     @media screen and (max-width: 960px) {
@@ -104,12 +112,18 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(Link)`
-    color: #fff;
+    color: #e0e0e0;
     display: flex;
     align-items: center;
+    justify-content: center;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    /* padding: 0.5rem 0 0.5rem 2rem; */
     height: 100%;
+    width: 7rem;
+
+    &:hover{
+        color: #ffffff;
+    }
 
     @media screen and (max-width: 960px) {
         text-align: center;
@@ -130,14 +144,13 @@ export const NavLinks = styled(Link)`
 
     @media screen and (max-width: 960px) {
         display: block;
-        background-color: #000000;
+        background-color: #ac5ee2;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
         border: 0;
         height: 1px;
         width: 100px;
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 
     }
  `
