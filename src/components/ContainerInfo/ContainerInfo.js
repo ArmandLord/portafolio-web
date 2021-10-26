@@ -5,7 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import {
-  LogoInfo,
+  // LogoInfo,
   ContainerBackground,
   Info,
   ContainerText,
