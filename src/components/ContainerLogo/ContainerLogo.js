@@ -4,7 +4,7 @@ import {
   BackgroundContainer,
   // Transition,
   H1,
-  H2,
+//   H2,
 } from "./ContainerLogo.element";
 
 const ContainerLogo = () => {
@@ -12,7 +12,7 @@ const ContainerLogo = () => {
     <>
       <ContainerBackground>
         <BackgroundContainer>
-          <div class="contenedor">
+          <div className="contenedor">
             <p>Hola</p>
             <ul>
               <li>mundo!</li>
