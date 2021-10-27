@@ -5,7 +5,7 @@ import About from '../../assets/about.png'
 
 
 export const ContainerBackground = styled.div`
-    height: 1000px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
