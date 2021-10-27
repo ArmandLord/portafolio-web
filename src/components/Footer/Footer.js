@@ -9,7 +9,7 @@ const Footer = () => {
             <ContainerFooter>
                 <FooterMin>
                     
-                    <h2>Contactame</h2>
+                    <h2>Contáctame</h2>
                     <ContainerIcons>    
                         <Icon rel="noreferrer" href='https://github.com/ArmandLord' target="blank">
                             <IconGitHub/> 

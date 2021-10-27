@@ -15,9 +15,9 @@ const ProjectSlider = () => {
                         <CarrouselInfo>
                             <LinksInfo>
                                 <h2>GameStore</h2>
-                                <small>Ecommerce de videojuegos retro. ¡Recuerda tu infancia visitandonos!</small>
+                                <small>Ecommerce de videojuegos retro. ¡Recuerda tu infancia visitándonos!</small>
                                 <a target='_blank' rel="noreferrer" href='https://16-bit-gamestore.vercel.app/'>Deploy <Deploy/></a>
-                                <a target='_blank' rel="noreferrer" href='https://github.com/2Davit/16Bit-GameStore'>Github <GithuB/></a>
+                                <a target='_blank' rel="noreferrer" href='https://github.com/2Davit/16Bit-GameStore'>GitHub <GithuB/></a>
                             </LinksInfo>
                         </CarrouselInfo>
                     </CarrouselDivs>
@@ -26,9 +26,9 @@ const ProjectSlider = () => {
                         <CarrouselInfo>
                             <LinksInfo>
                                 <h2>GameZone</h2>
-                                <small>Catalogo de videojuegos. ¡Ven y encuentra cualquier videojugo! </small>
+                                <small>Catalogo de videojuegos. ¡Ven y encuentra cualquier videojuego! </small>
                                 {/* <a target='_blank' href='https://boring-pare-833804.netlify.app/'>Deploy <Deploy/></a> */}
-                                <a target='_blank' rel="noreferrer" href='https://github.com/ArmandLord/videogames-pi'>Github <GithuB/></a>
+                                <a target='_blank' rel="noreferrer" href='https://github.com/ArmandLord/videogames-pi'>GitHub <GithuB/></a>
                             </LinksInfo>
                         </CarrouselInfo>
                     </CarrouselDivs>
@@ -37,9 +37,9 @@ const ProjectSlider = () => {
                         <CarrouselInfo>
                             <LinksInfo>
                                 <h2>ClimApp</h2>
-                                <small>Aplicación que te permite  conocer informacion climatica de diferentes partes del mundo!</small>
+                                <small>Aplicación que te permite  conocer información climática de diferentes partes del mundo!</small>
                                 <a target='_blank' rel="noreferrer" href='https://boring-pare-833804.netlify.app/'>Deploy <Deploy/></a>
-                                <a target='_blank' rel="noreferrer" href='https://github.com/ArmandLord/climapp'>Github <GithuB/></a>
+                                <a target='_blank' rel="noreferrer" href='https://github.com/ArmandLord/climapp'>GitHub <GithuB/></a>
                             </LinksInfo>
                         </CarrouselInfo>
                     </CarrouselDivs>                    

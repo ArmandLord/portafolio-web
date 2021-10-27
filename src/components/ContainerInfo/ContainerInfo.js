@@ -64,7 +64,7 @@ const ContainerInfo = () => {
                   Egreso
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
-                  Psicologo  
+                  Psicólogo  
                 </h4>
                 <p>
                   Termino el 100% de mis creditos
@@ -90,7 +90,7 @@ const ContainerInfo = () => {
                   Emocionado  
                 </h4>
                 <p>
-                  Comienza mi vida como programador: Hola mundo!
+                  Comienza mi vida como programador: ¡Hola mundo!
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
