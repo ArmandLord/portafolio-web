@@ -8,7 +8,7 @@ import {
 import { GiHalfDead } from 'react-icons/gi'
 
 export const Nav = styled.div`
-      background: #120932;
+    background: #120932;
     width: 100%;
     height: 60px;
     /* display: flex; */

@@ -13,6 +13,7 @@ const themes = {
         colorSkillsRed: 'red',
         backCool: `${BackLogo}`,
         backCoolProjects: `${CarruselImage}`,
+        backFooter: 'radial-gradient(circle, rgba(172,94,226,1) 0%, rgba(10,5,25,1) 100%);',
     },
     diaDeMuertos: {
         color: '#FF8000',
@@ -22,6 +23,7 @@ const themes = {
         colorSkillsRed: '#FF8000',
         backCool: `${BackLogo2}`,
         backCoolProjects: `${CarruselImage2}`,
+        backFooter: 'radial-gradient(circle, #FF8000 0%, rgba(10,5,25,1) 100%);',
     }
 }
 

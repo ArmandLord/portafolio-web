@@ -9,6 +9,7 @@ export const ContainerProjects = styled.div`
     /* height: auto; */
     width: 100%;
     background-color: #0a0424;
+    margin-bottom: 250px;
     
 `
 
