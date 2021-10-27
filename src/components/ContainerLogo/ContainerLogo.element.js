@@ -59,7 +59,7 @@ export const BackgroundContainer = styled(Container)`
     line-height: 40px;
     
     position: absolute;
-    /* top: 0; */
+    
     /* right: 0; */
     bottom: 45%;
     /* left: 0; */

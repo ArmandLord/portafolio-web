@@ -124,7 +124,7 @@ const ContainerInfo = () => {
             </VerticalTimeline>
           </ContainerImageText>
           <ContainerText>
-            <h3>¿Cómo decido ser programador? </h3>
+            <h3 style={{textShadow: '0 1.36px 20.896px #ac5ee2'}}>¿Cómo decido ser programador? </h3>
             <br />
             A raíz de los estragos de la pandemia descubrí que las posibilidades
             de aprender, de trabajar y de relacionarse habían sido tan afectadas
@@ -151,7 +151,7 @@ const ContainerInfo = () => {
             <br />
             <br />
             <br />
-            <h4 style={{ textAlign: "center", fontStyle: "italic" }}>
+            <h4 style={{ textAlign: "center", fontStyle: "italic", textShadow: '0 1.36px 20.896px #ac5ee2' }}>
               “Un viaje de mil millas comienza con un solo paso” <br />
               -Lao Tse-
             </h4>
