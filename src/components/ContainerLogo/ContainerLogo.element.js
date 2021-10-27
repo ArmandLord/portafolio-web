@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { Container } from '../../globalStyles'
-import BackLogo from '../../assets/back.png'
 
 export const ContainerBackground = styled.div`
       width: 100%;
@@ -45,7 +44,7 @@ export const BackgroundContainer = styled(Container)`
     align-items: flex-start;
     flex-direction: column;
     background-position: center center;
-    background-image: url(${BackLogo});
+    background-image: url(${p => p.theme.backCool});
     background-size: cover;
     /* background-repeat: no-repeat; */
   
@@ -155,7 +154,7 @@ export const H1 = styled.h1`
     font-size: 2.5rem;
     b{
       font-size: 2.9rem;
-      text-shadow: 0 1.36px 20.896px #ac5ee2;
+      text-shadow: 0 1.36px 20.896px ${p => p.theme.color};
       @media screen and (max-width: 770px){
         font-size: 1.9rem;
       }

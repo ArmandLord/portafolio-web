@@ -26,7 +26,7 @@ export const H2 = styled.h2`
     margin-bottom: 3rem;
     margin-top: 3rem;
     width: 100%;
-    text-shadow: 0 1.36px 20.896px #ac5ee2;
+    text-shadow: 0 1.36px 20.896px ${p => p.theme.color};
     /* background: red; */
 `
 
@@ -98,11 +98,11 @@ export const CardsSkills = styled.div`
     box-shadow:
             -0.08rem -0.08rem .5rem #fff,
             0.08rem 0.08rem .5rem #fff,
-            0 0 .2rem rgb(70, 183, 272),
-            0 0 .5rem rgb(70, 183, 272),
-            0 0 1rem rgb(70, 183, 272),
-            0 0 1.5rem rgb(70, 183, 272),
-            0 0 2rem rgb(70, 183, 272);
+            0 0 .2rem ${p => p.theme.colorSkillsBlue},
+            0 0 .5rem ${p => p.theme.colorSkillsBlue},
+            0 0 1rem ${p => p.theme.colorSkillsBlue},
+            0 0 1.5rem ${p => p.theme.colorSkillsBlue},
+            0 0 2rem ${p => p.theme.colorSkillsBlue};
 
     width: 200px;
     height: 100px;
@@ -128,11 +128,11 @@ export const CardsSkillsGreen = styled.div`
     box-shadow:
             -0.08rem -0.08rem .5rem #fff,
             0.08rem 0.08rem .5rem #fff,
-            0 0 .2rem #20aa0d,
-            0 0 .5rem #20aa0d,
-            0 0 1rem #20aa0d,
-            0 0 1.5rem #20aa0d,
-            0 0 2rem #20aa0d;
+            0 0 .2rem ${p => p.theme.colorSkillsGreen},
+            0 0 .5rem ${p => p.theme.colorSkillsGreen},
+            0 0 1rem ${p => p.theme.colorSkillsGreen},
+            0 0 1.5rem ${p => p.theme.colorSkillsGreen},
+            0 0 2rem ${p => p.theme.colorSkillsGreen};
 
     width: 200px;
     height: 100px;
@@ -158,11 +158,11 @@ export const CardsSkillsRed = styled.div`
     box-shadow:
             -0.08rem -0.08rem .5rem #fff,
             0.08rem 0.08rem .5rem #fff,
-            0 0 .2rem #ac5ee2,
-            0 0 .5rem #ac5ee2,
-            0 0 1rem #ac5ee2,
-            0 0 1.5rem #ac5ee2,
-            0 0 2rem #ac5ee2;
+            0 0 .2rem ${p => p.theme.colorSkillsPurple},
+            0 0 .5rem ${p => p.theme.colorSkillsPurple},
+            0 0 1rem ${p => p.theme.colorSkillsPurple},
+            0 0 1.5rem ${p => p.theme.colorSkillsPurple},
+            0 0 2rem ${p => p.theme.colorSkillsPurple};
 
     width: 200px;
     height: 100px;
@@ -188,11 +188,11 @@ export const CardsSkillsRED = styled.div`
     box-shadow:
             -0.08rem -0.08rem .5rem #fff,
             0.08rem 0.08rem .5rem #fff,
-            0 0 .2rem red,
-            0 0 .5rem red,
-            0 0 1rem red,
-            0 0 1.5rem red,
-            0 0 2rem red;
+            0 0 .2rem ${p => p.theme.colorSkillsRed},
+            0 0 .5rem ${p => p.theme.colorSkillsRed},
+            0 0 1rem ${p => p.theme.colorSkillsRed},
+            0 0 1.5rem ${p => p.theme.colorSkillsRed},
+            0 0 2rem ${p => p.theme.colorSkillsRed};
 
     width: 200px;
     height: 100px;

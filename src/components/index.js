@@ -17,3 +17,5 @@ export { default as CardProject } from './CardProject/CardProject'
 export { default as Card } from './Card/Card'
 
 export { default as Project } from './Project/Project'
+
+export { default as ProjectSlider } from './ProjectSlider/ProjectSlider'

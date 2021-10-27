@@ -5,6 +5,7 @@ import {
     TiChevronLeft, 
     TiChevronRight
 } from 'react-icons/ti'
+import { GiHalfDead } from 'react-icons/gi'
 
 export const Nav = styled.div`
       background: #120932;
@@ -45,6 +46,7 @@ export const NavLogo = styled(Link)`
 
 export const NavIconLeft = styled(TiChevronLeft)`
     margin-right: 0;
+    
 `
 
 export const NavIconRight = styled(TiChevronRight)`
@@ -73,6 +75,7 @@ export const NavMenu = styled.ul`
     list-style: none;
     text-align: center;
     width: 80%;
+    
 
     @media screen and (max-width: 960px){
         display: flex;
@@ -97,7 +100,8 @@ export const NavItem = styled.li`
     
 
     &:hover{
-        border-bottom: 2px solid #ac5ee2;
+        border-bottom: 2px solid ${p => p.theme.color};
+        
     }
 
     @media screen and (max-width: 960px) {
@@ -108,6 +112,57 @@ export const NavItem = styled.li`
             border: none;
 
         }
+    }
+`
+export const NavItemBtn = styled.button`
+    height: 50%;
+    width: 30px;
+    border: none;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    background: transparent;
+
+    &:hover{
+        background: ${p => p.theme.color};
+        box-shadow:
+            -0.08rem -0.08rem .5rem #fff,
+            0.08rem 0.08rem .5rem #fff,
+            0 0 .2rem ${p => p.theme.color},
+            0 0 .5rem ${p => p.theme.color},
+            0 0 1rem ${p => p.theme.color},
+            0 0 1.5rem ${p => p.theme.color},
+            0 0 2rem ${p => p.theme.color};
+    }
+    &:focus{
+        outline: none;
+    }
+    
+
+    @media screen and (max-width: 960px) {
+        background: transparent;
+        height: 50px;
+        width: 50px;
+        margin-top: 80px;
+        /* background: #ac5ee2; */
+        box-shadow:
+            -0.08rem -0.08rem .5rem #fff,
+            0.08rem 0.08rem .5rem #fff,
+            0 0 .2rem ${p => p.theme.color},
+            0 0 .5rem ${p => p.theme.color},
+            0 0 1rem ${p => p.theme.color},
+            0 0 1.5rem ${p => p.theme.color},
+            0 0 2rem ${p => p.theme.color};
+
+        &:focus{
+            outline: none;
+            /* background: #ac5ee2; */
+        }
+    }
+`
+export const NavItemBtnIcon1 = styled(GiHalfDead)`
+    font-size: 1.5rem;
+    @media screen and (max-width: 960px) {
+        font-size: 1.8rem;
     }
 `
 
@@ -144,7 +199,7 @@ export const NavLinks = styled(Link)`
 
     @media screen and (max-width: 960px) {
         display: block;
-        background-color: #ac5ee2;
+        background-color: ${p => p.theme.color};
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;

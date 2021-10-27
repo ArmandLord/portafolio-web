@@ -65,6 +65,12 @@ export const ContainerText = styled.div`
             color: yellow;
         }
     }
+    h3{
+        text-shadow: 0 1.36px 20.896px ${p => p.theme.color};
+    }
+    h4{
+        text-shadow: 0 1.36px 20.896px ${p => p.theme.color};
+    }
 `
 export const ContainerImageText = styled.div`
     display: flex;

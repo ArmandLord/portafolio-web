@@ -10,10 +10,12 @@ import {
     NavMenu,
     NavItem,
     NavLinks,
-    NavHr
+    NavHr,
+    NavItemBtn,
+    NavItemBtnIcon1
  } from './Navbar.element'
 
-const Navbar = () => {
+const Navbar = ({ setTheme, theme }) => {
     const [click, setClick] = useState(false)
     const [logo, setLogo] = useState(true)
 
@@ -43,9 +45,10 @@ const Navbar = () => {
                         <NavItem>
                             <NavLinks to='/contact'>Contacto<NavHr/></NavLinks>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks to='/projects'>Proyectos<NavHr/></NavLinks>
-                        </NavItem>
+                        </NavItem> */}
+                        <NavItemBtn onClick={() => setTheme(!theme) }><NavItemBtnIcon1/></NavItemBtn>
                     </NavMenu>
                 </NavbarContainer>   
            </Nav> 

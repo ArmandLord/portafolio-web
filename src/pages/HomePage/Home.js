@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContainerLogo, ContainerInfo, Skills } from '../../components'
+import { ContainerLogo, ContainerInfo, Skills, ProjectSlider } from '../../components'
 
 
 const Home = () => {
@@ -8,6 +8,7 @@ const Home = () => {
             <ContainerLogo/>
             <ContainerInfo/>
             <Skills/>
+            <ProjectSlider/>
         </>
     )
 }
