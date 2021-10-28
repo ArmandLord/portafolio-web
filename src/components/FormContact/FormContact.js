@@ -30,13 +30,13 @@ const FormContact = () => {
         <FormContainer>
             <FormMin>
                 <Form onSubmit={handleSubmit}>
-                    <h2>Contactame</h2>
+                    <h2>Contáctame</h2>
                     <label htmlFor="email"></label>
                     <Input
                     id="email"
                     type="email" 
                     name="email"
-                    placeholder="Email:"
+                    placeholder="Escribe tu email:"
                     />
                     <ValidationError 
                     prefix="Email" 

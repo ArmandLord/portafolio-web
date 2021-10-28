@@ -62,7 +62,7 @@ export const ContainerText = styled.div`
     a {
         color: rgba(255, 255,255, 0.8);
         &:hover{
-            color: yellow;
+            color: ${p => p.theme.color};
         }
     }
     h3{
@@ -113,7 +113,7 @@ export const ContainerImageText = styled.div`
     a {
         color: rgba(255, 255,255, 0.8);
         &:hover{
-            color: yellow;
+            color: red;
         }
     }
 `

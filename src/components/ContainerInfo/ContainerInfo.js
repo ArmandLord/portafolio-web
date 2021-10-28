@@ -129,8 +129,17 @@ const ContainerInfo = () => {
             A raíz de los estragos de la pandemia descubrí que las posibilidades
             de aprender, de trabajar y de relacionarse habían sido tan afectadas
             que era necesario un cambio. En esos momentos estaba finalizando la
-            licenciatura de Psicología en la Facultad de Estudios Superiores
-            Zaragoza UNAM, como todo comenzaba a ser remoto terminé con el 100%
+            licenciatura de Psicología en la  <a
+                target="blanck"
+                href="https://www.zaragoza.unam.mx/"
+                style={{ textDecoration: "none" }}
+              >Facultad de Estudios Superiores
+            Zaragoza</a>, como todo comenzaba a ser remoto terminé con el 100%
+            Zaragoza <a
+                target="blanck"
+                href="https://www.unam.mx/"
+                style={{ textDecoration: "none" }}
+              >UNAM</a>, como todo comenzaba a ser remoto terminé con el 100%
             de crédito mucho antes de lo esperado. Claro que no quería quedarme
             de brazos cruzados, esperando que comenzara un diplomado en
             Psicología Criminal, el cual iba a cursar. Días después un buen
@@ -140,9 +149,19 @@ const ContainerInfo = () => {
             <br />
             A diferencia de lo difícil que fue para otras áreas adaptarse, esta
             seguía creciendo y siendo cada vez más requerida por todos. Así fue
-            que después de estudiar con Carlos Correa continúe aprendiendo de
+            que después de estudiar con <a
+                target="blanck"
+                href="https://www.linkedin.com/in/jossdz/"
+                style={{ textDecoration: "none" }}
+              >Carlos Correa</a> continúe aprendiendo de
             forma autodidacta con cursos de platzi, udemy, youtube y actualmente
-            en Henry.
+            en <a
+                target="blanck"
+                href="https://www.soyhenry.com/"
+                style={{ textDecoration: "none" }}
+              >
+                Henry
+              </a>.
             <br />
             <br />
             Sé que este es el comienzo y estoy feliz de que así sea, porque me

@@ -89,6 +89,11 @@ export const ContainerCardsSkills = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
+
+    @media screen and (max-width: 500px){
+        justify-content: space-evenly;
+    }
 `
 export const CardsSkills = styled.div`
     background: rgba(70, 183, 272, 0.17);
@@ -118,6 +123,7 @@ export const CardsSkills = styled.div`
 
     @media screen and (max-width: 500px){
         width: 150px;
+        margin: 0 0 2rem 0;
     }
 `
 export const CardsSkillsGreen = styled.div`
@@ -148,6 +154,7 @@ export const CardsSkillsGreen = styled.div`
 
     @media screen and (max-width: 500px){
         width: 150px;
+        margin: 0 0 2rem 0;
     }
 `
 export const CardsSkillsRed = styled.div`
@@ -178,6 +185,7 @@ export const CardsSkillsRed = styled.div`
 
     @media screen and (max-width: 500px){
         width: 150px;
+        margin: 0 0 2rem 0;
     }
 `
 export const CardsSkillsRED = styled.div`
@@ -208,6 +216,7 @@ export const CardsSkillsRED = styled.div`
 
     @media screen and (max-width: 500px){
         width: 150px;
+        margin: 0 0 2rem 0;
     }
 `
 
