@@ -157,7 +157,7 @@ const ContainerInfo = () => {
             forma autodidacta con cursos de platzi, udemy, youtube y actualmente
             en <a
                 target="blanck"
-                href="https://www.soyhenry.com/"
+                href="https://talent.soyhenry.com/candidate/2622"
                 style={{ textDecoration: "none" }}
               >
                 Henry
@@ -188,7 +188,7 @@ const ContainerInfo = () => {
               por despertarme el interés y a{" "}
               <a
                 target="blanck"
-                href="https://www.soyhenry.com/"
+                href="https://talent.soyhenry.com/candidate/2622"
                 style={{ textDecoration: "none" }}
               >
                 Henry
